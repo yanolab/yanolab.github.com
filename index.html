@@ -4,8 +4,8 @@ layout: default
 <div class="container-narrow">
   <div class="masthead">
     <ul class="nav nav-pills pull-right">
-      <li class="active"><a href="#">English</a></li>
-      <li><a href="index.ja.html">日本語</a></li>
+      <li class="active"><a data-toggle="tab" href="#en">English</a></li>
+      <li><a data-toggle="tab" href="#ja">日本語</a></li>
     </ul>
     <h3 class="muted">yanolab.github.io</h3>
   </div>
@@ -15,7 +15,14 @@ layout: default
   <div class="jumbotron">
     <h1>Welcome</h1>
     <p class="lead"><img src="http://www.gravatar.com/avatar/674230ee025212c1201174538094c63b.png"/></p>
-    <p class="lead">I'm a programmer. I'm interested in C, C#, Java, Ruby, Python, Go, Scala and Haskell. My favorite programming languages are Go and Python.</p>
+    <div class="tab-content">
+      <div id="en" class="tab-pane fade in active">
+          <p class="lead">I'm a programmer. I'm interested in C, C#, Java, Ruby, Python, Go, Scala and Haskell. My favorite programming languages are Go and Python.</p>
+      </div>
+      <div id="ja" class="tab-pane fade">
+        <p class="lead">東京で働くしがないプログラマー. C, C#, Java, Ruby, Python, Go, Scala and Haskell. Haskellは誠意勉強中. 主な使用言語はGoとPython.</p>
+      </div>
+    </div>
   </div>
 
   <hr>
