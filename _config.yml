@@ -1,5 +1,5 @@
 markdown: rdiscount
 highlighter: rouge
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'vendor']
 # Google Analytics
 google_analytics_tracking_id: UA-921569-5
