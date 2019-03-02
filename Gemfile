@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
 
-gem "jekyll", ">= 3.6.3"
-gem 'RedCloth'
+gem "jekyll"
+gem "RedCloth"
+
